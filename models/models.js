@@ -50,6 +50,12 @@ sequelize.sync().success(function() {
 			Quiz.create({ pregunta: 'Capital de Italia',
 						  respuesta: 'Roma'
 						  });
+			Quiz.create({ pregunta: 'Capital de Spain',
+						  respuesta: 'Madrid'
+						  });				
+			Quiz.create({ pregunta: 'Capital de Francia',
+						  respuesta: 'Paris'
+						  });						  
 			Quiz.create({	pregunta: 'Capital de portugal',
 							respuesta:	'Lisboa'
 						})			  
